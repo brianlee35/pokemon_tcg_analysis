@@ -1,6 +1,6 @@
 # Movie Analysis
 
-**Authors**: Brian Lee
+**Author**: Brian Lee
 
 ## Overview
 
@@ -23,7 +23,7 @@ In the folder `zippedData` are movie datasets from:
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./movie-analysis.ipynb) or our [presentation](./Movie_Analysis_Presentation.pdf).
+Please review my full analysis in [our Jupyter Notebook](./movie-analysis.ipynb) or my [presentation](./Movie_Analysis_Presentation.pdf).
 
 For additional info, contact Brian Lee at [leebrian53@gmail.com](mailto:leebrian53@gmail.com)
 
