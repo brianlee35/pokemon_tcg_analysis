@@ -1,84 +1,39 @@
-# Title
+# Movie Analysis
 
-**Authors**: Student1, Student2
+**Authors**: Brian Lee
 
 ## Overview
 
-A one-paragraph overview of the project, including the business problem, data, methods, results and recommendations.
+This project analyzes the movie industry and aims to provide recommendations for the "new Microsoft studio". The descriptive analysis of movie datasets from IMDB, Box Office Mojo, and The Numbers show that specific genres have a higher likelihood of popularity and commerical success and that a larger production budget leads to larger profits. Microsoft can use this analysis to choose better genres for lower budgets, to predict changes in viewer tastes, and to decide best budget limits for future films.
 
 ## Business Problem
 
-Summary of the business problem you are trying to solve, and the data questions that you plan to answer in order to solve them.
-
-***
-Questions to consider:
-* What are the business's pain points related to this project?
-* How did you pick the data analysis question(s) that you did?
-* Why are these questions important from a business perspective?
-***
+Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
 
 ## Data
 
-Describe the data being used for this project.
+In the folder `zippedData` are movie datasets from:
 
-***
-Questions to consider:
-* Where did the data come from, and how do they relate to the data analysis questions?
-* What do the data represent? Who is in the sample and what variables are included?
-* What is the target variable?
-* What are the properties of the variables you intend to use?
-***
+* [Box Office Mojo](https://www.boxofficemojo.com/)
+* [IMDB](https://www.imdb.com/)
+* [Rotten Tomatoes](https://www.rottentomatoes.com/)
+* [TheMovieDB](https://www.themoviedb.org/)
+* [The Numbers](https://www.the-numbers.com/)
 
-## Methods
-
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
-
-***
-Questions to consider:
-* How did you prepare, analyze or model the data?
-* Why is this approach appropriate given the data and the business problem?
-***
-
-## Results
-
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
-
-***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
-
-Here is an example of how to embed images from your sub-folder:
-
-### Visual 1
-Insert here
-
-## Conclusions
-
-Provide your conclusions about the work you've done, including any limitations or next steps.
-
-***
-Questions to consider:
-* What would you recommend the business do as a result of this work?
-* What are some reasons why your analysis might not fully solve the business problem?
-* What else could you do in the future to improve this project?
-***
 
 ## For More Information
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./movie-analysis.ipynb) or our [presentation](./Movie_Analysis_Presentation.pdf).
 
-For any additional questions, please contact **name & email, name & email**
+For additional info, contact Brian Lee at [leebrian53@gmail.com](mailto:leebrian53@gmail.com)
 
 ## Repository Structure
 
-Describe the structure of your repository and its contents, for example:
-
 ```
-├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
+├── zippedData
+├── .canvas
+├── .gitignore
+├── README.md
+├── Movie_Analysis_Presentation.pdf
+└── movie-analysis.ipynb
 ```
