@@ -31,9 +31,8 @@ For additional info, contact Brian Lee at [leebrian53@gmail.com](mailto:leebrian
 
 ```
 ├── zippedData
-├── .canvas
-├── .gitignore
 ├── README.md
-├── Movie_Analysis_Presentation.pdf
-└── movie-analysis.ipynb
+├── movie-analysis.ipynb
+├── movie-analysis.pdf
+└── Movie_Analysis_Presentation.pdf
 ```
