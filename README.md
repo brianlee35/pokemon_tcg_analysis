@@ -2,7 +2,7 @@
 
 **Author**: Brian Lee
 
-<img src='https://github.com/brianlee35/pokemon_tcg_analysis/main/images/charizard.jpg'>
+![Charizard](images/charizard.jpg)
 
 ## Overview
 
@@ -30,6 +30,7 @@ For additional info, contact Brian Lee at [leebrian53@gmail.com](mailto:leebrian
 ## Repository Structure
 
 ```
+├── images
 ├── README.md
 ├── pokemon_tcg_analysis.ipynb
 ├── pokemon_tcg_analysis.pdf
