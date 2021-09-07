@@ -1,38 +1,37 @@
-# Movie Analysis
+# Pokemon TCG Analysis
 
 **Author**: Brian Lee
 
+<img src='https://github.com/brianlee35/pokemon_tcg_analysis/main/images/charizard.jpg'>
+
 ## Overview
 
-This project analyzes the movie industry and aims to provide recommendations for the "new Microsoft studio". The descriptive analysis of movie datasets from IMDB, Box Office Mojo, and The Numbers show that specific genres have a higher likelihood of popularity and commerical success and that a larger production budget leads to larger profits. Microsoft can use this analysis to choose better genres for lower budgets, to predict changes in viewer tastes, and to decide best budget limits for future films.
+This project analyzes the Pokemon TCG market and aims to provide recommendations for the upcoming collectors. The analysis of card market datasets from the PokemonTCG group and CardMarket displays that older cards have higher value, modern rarities still have significant value, and basic cards without any special tags have high value. New collectors can use this analysis to choose the Pokemon cards with the valuable "details and invest early on the new card sets
 
 ## Business Problem
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+As a child, I have always been interested in Pokemon. I bought Pokemon cards growing up until my teens. There has been a resurgence in popularity in collecting the cards again recent years, as large media stars got into the hobby. I would like to analyze the current Pokemon TCG markte to predict the best new card investments in upcoming sets for myself and new collectors.
+
 
 ## Data
 
-In the folder `zippedData` are movie datasets from:
+The data was gathered from the following:
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+* [PokemonTCG](https://pokemontcg.io/)
+* [cardmarket](https://www.cardmarket.com/en)
 
 
 ## For More Information
 
-Please review my full analysis in [our Jupyter Notebook](./movie-analysis.ipynb) or my [presentation](./Movie_Analysis_Presentation.pdf).
+Please review my full analysis in [my Jupyter Notebook](./pokemon_tcg_analysis.ipynb) or my [presentation](./Pokemon_TCG_Analysis_Presentation.pdf).
 
 For additional info, contact Brian Lee at [leebrian53@gmail.com](mailto:leebrian53@gmail.com)
 
 ## Repository Structure
 
 ```
-├── zippedData
 ├── README.md
-├── movie-analysis.ipynb
-├── movie-analysis.pdf
-└── Movie_Analysis_Presentation.pdf
+├── pokemon_tcg_analysis.ipynb
+├── pokemon_tcg_analysis.pdf
+└── Pokemon_TCG_Analysis_Presentation.pdf
 ```
